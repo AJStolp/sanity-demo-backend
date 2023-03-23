@@ -8,7 +8,8 @@ const devOnlyPlugins = [getStartedPlugin()]
 
 export default defineConfig({
   name: 'default',
-  title: 'purple-otter',
+  title: 'Demo',
+  basePath: '/studio',
 
   projectId: 'qosix616',
   dataset: 'production',
@@ -19,4 +20,3 @@ export default defineConfig({
     types: schemaTypes,
   },
 })
-
